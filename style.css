@@ -1,112 +1,129 @@
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: 'Montserrat',sans-serif;
-}
-body{
-	width: 100%;
-	height: 100vh;
-	background: #282828;
-	background: linear-gradient(-45deg,#2ab392,#d29d8d,#26b0e2);
-	animation: gradient 15s ease infinite;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-@-webkit-keyframes gradient{
-	0%{
-		background-position: 0% 50%
-	}
-	50%{
-		background-position: 100% 50%
-	}
-	100%{
-		background-position: 0% 50%
-	}
+body {
+    width: 100%;
+    height: 100vh;
+    background: #282828;
+    background: linear-gradient(-45deg, #2ab392, #d29d8d, #26b0e2);
+    animation: gradient 15s ease infinite;
 }
-.menubar{
-	width: 100%;
-	height: 100px;
-	display: flex;
-}
-.logo{
-	width: 40%;
-	height: 100px;
-}
-.logo h1{
-	color: white;
-	font-size: 40px;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding-top: 40px;
-	padding-left: 50px;
-}
-.menu{
-	width: 60%;
-	height: 100px;
-}
-.menu ul{
-	list-style: none;
-	text-transform: uppercase;
-	font-size: 25px;
-	text-align: center;
-	padding-top: 30px;
-}
-.menu ul li{
-	display: inline-block;
-	padding: 20px;
 
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
-.menu ul li a{
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
+
+.menubar {
+    width: 100%;
+    height: 100px;
+    display: flex;
 }
-.menu ul li a:hover{
-	border-bottom: 2px solid white;
+
+.logo {
+    width: 40%;
+    height: 100px;
 }
-.body{
-	display: flex;
-	width: 100%;
-	height:100%;
+
+.logo h1 {
+    color: rgb(244, 245, 248);
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-left: 50px;
 }
-.left_body{
-	width: 60%;
-	height: 100vh;
-	text-align: center;
-	padding-top: 120px;
+
+.menu {
+    width: 60%;
+    height: 100px;
 }
-.text{
-	padding: 30px;
-	color: white;
+
+.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
 }
-.text h1{
-	font-size: 55px;
-	padding: 15px;
+
+.menu ul li {
+    display: inline-block;
+    padding: 20px;
 }
-.text p{
-	font-size: 20px;
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
-button{
-	font-size: 25px;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: white;
-	background: linear-gradient(-45deg,#7bcab7,#2f809c);
-	padding: 10px 20px;
-	border: 2px solid white;
-	border-radius: 5px;
+
+.menu ul li a:hover {
+    border-bottom: 2px solid white;
 }
-button:hover{
-	color: white;
-	border: 2px solid white;
-	background: linear-gradient(-45deg,#2f809c,#7bcab7);
+
+.body {
+    display: flex;
+    width: 100%;
+    height: 0;
 }
-.right_body{
-	width: 40%;
-	height: 100vh;
-	background-color: white;
+
+.left_body {
+    width: 60%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 120px;
 }
-img{
-	width: 89%;
-	height: 540px;
+
+.text {
+    padding: 30px;
+    color: white;
+}
+
+.text h1 {
+    font-size: 55px;
+    padding: 15px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+button {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(-45deg, #7bcab7, #2f809c);
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: white;
+    border: 2px solid white;
+    background: linear-gradient(-45deg, #2f809c, #7bcab7);
+}
+
+.right_body {
+    width: 40%;
+    height: 100vh;
+    background-color: white;
+}
+
+img {
+    width: 89%;
+    height: 540px;
 }
